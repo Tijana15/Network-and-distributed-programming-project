@@ -1,0 +1,1 @@
+Book [id=2 title=The girls, author=Edna Ferber, publicationDate=english, language=1921]

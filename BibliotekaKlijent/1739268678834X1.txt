@@ -1,0 +1,1 @@
+Book [id=1 title=The Great Gatsby, author=F. Scott Fitzgerald, publicationDate=1925, language=English]

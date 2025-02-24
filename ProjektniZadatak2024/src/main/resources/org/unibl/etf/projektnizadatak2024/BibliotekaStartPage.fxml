@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.projektnizadatak2024.controllers.StartPageController">
+   <children>
+      <ImageView fitHeight="407.0" fitWidth="725.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 0.8;">
+         <image>
+            <Image url="@LibraryBackground.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="workWithMembersButton" contentDisplay="CENTER" layoutX="165.0" layoutY="67.0" mnemonicParsing="false" onMouseClicked="#onWWMembersButton" prefHeight="38.0" prefWidth="390.0" style="-fx-text-fill: darkblue; -fx-background-radius: 20; -fx-background-color: linear-gradient(to bottom, #87CEFA, #FFFFFF); -fx-padding: 10px 20 pc; -fx-border-color: #87CEEB;" text="Work with members" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Gabriola" size="24.0" />
+         </font>
+      </Button>
+      <Button id="orderBooksButton" fx:id="orderBooksButton" contentDisplay="CENTER" layoutX="166.0" layoutY="218.0" mnemonicParsing="false" onMouseClicked="#onOrderBooksButton" prefHeight="38.0" prefWidth="390.0" style="-fx-text-fill: darkblue; -fx-background-radius: 20; -fx-background-color: linear-gradient(to bottom, #87CEFA, #FFFFFF); -fx-padding: 10px 20 pc; -fx-border-color: #87CEEB;" text="Order books" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Gabriola" size="24.0" />
+         </font>
+      </Button>
+      <Button id="workWithBooksButton" fx:id="workWithBooksButton" contentDisplay="CENTER" layoutX="166.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#onWWBooksButton" prefHeight="38.0" prefWidth="390.0" style="-fx-text-fill: darkblue; -fx-background-radius: 20; -fx-background-color: linear-gradient(to bottom, #87CEFA, #FFFFFF); -fx-padding: 10px 20 pc; -fx-border-color: #87CEEB;" text="Work with books" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Gabriola" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="suggestionsButton" contentDisplay="CENTER" layoutX="166.0" layoutY="294.0" mnemonicParsing="false" onMouseClicked="#onSuggestions" prefHeight="38.0" prefWidth="390.0" style="-fx-text-fill: darkblue; -fx-background-radius: 20; -fx-background-color: linear-gradient(to bottom, #87CEFA, #FFFFFF); -fx-padding: 10px 20 pc; -fx-border-color: #87CEEB;" text="Suggestions" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Gabriola" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

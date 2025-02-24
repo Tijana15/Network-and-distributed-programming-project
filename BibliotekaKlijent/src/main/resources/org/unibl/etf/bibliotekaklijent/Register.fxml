@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="515.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.bibliotekaklijent.controller.RegistrationController">
+   <children>
+      <ImageView fitHeight="298.0" fitWidth="517.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 0.7;">
+         <image>
+            <Image url="@LibraryBackground.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nameField" layoutX="26.0" layoutY="63.0" promptText="Name" />
+      <TextField fx:id="lastnameField" layoutX="26.0" layoutY="106.0" promptText="Lastname" />
+      <TextField fx:id="addressField" layoutX="26.0" layoutY="158.0" promptText="Adress" />
+      <TextField fx:id="emailAddressField" layoutX="26.0" layoutY="205.0" promptText="E-mail address" />
+      <TextField fx:id="usernameField" layoutX="270.0" layoutY="63.0" promptText="Username" />
+      <PasswordField fx:id="passwordField" layoutX="270.0" layoutY="106.0" promptText="Password" />
+      <PasswordField fx:id="password2Field" layoutX="270.0" layoutY="158.0" promptText="Password" />
+      <Button fx:id="registerButton" layoutX="394.0" layoutY="224.0" mnemonicParsing="false" onMouseClicked="#onRegisterButton" text="Register" />
+      <Text fill="#1100ff" layoutX="26.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert basic info about yourself" underline="true" />
+      <Text fx:id="text" fill="#1100ff" layoutX="259.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert password twice for check.." underline="true" />
+   </children>
+</AnchorPane>
